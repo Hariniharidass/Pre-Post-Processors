@@ -1,5 +1,2 @@
-.home-iframe-container {
-    width: 100vw;
-    height: 100vh;
-    border: none;
-}
+@charset "UTF-8";body{margin:60px 120px}.nav-bar{position:relative}.logo{float:left}.right{float:right}.nav-links{font-family:"Mulish",serif;font-style:normal;font-weight:700;font-size:18px;line-height:23px;letter-spacing:-0.346154px;color:#111111}.home-title{position:relative;top:180px}.blue-title{font-family:"Mulish",serif;font-style:normal;font-weight:700;font-size:22px;line-height:28px;letter-spacing:-0.423077px;color:#4A4FF2}.title-text{font-family:"Mulish",serif;font-style:normal;font-weight:700;font-size:40px;line-height:60px;color:#111111}.aside-text{font-family:"Mulish",serif;font-style:italic;font-weight:400;font-size:18px;line-height:23px;color:#111111;mix-blend-mode:normal;opacity:0.6}
+/*# sourceMappingURL=index.css.map */

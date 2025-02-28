@@ -1,0 +1,71 @@
+$primary-font:"Mulish",serif;
+$primary-color: #111111;
+$secondary-color: #4A4FF2;
+
+body{
+    margin: 60px 120px;
+}
+.nav-bar{
+    position: relative;
+}
+.logo{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+.nav-links{
+        font-family: $primary-font;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 23px;
+        /* identical to box height */
+        letter-spacing: -0.346154px;
+        color: $primary-color;
+}
+
+.home-title{
+    position: relative;
+    top: 180px;
+}
+.blue-title{
+    /* Shooting Stars */
+        font-family: $primary-font;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 28px;
+        /* identical to box height */
+        letter-spacing: -0.423077px;
+
+        color: $secondary-color;
+}
+.title-text{
+    /* Hello, I’m Bakhtiyar */
+        font-family: $primary-font;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 60px;
+        /* or 150% */
+
+        color: $primary-color;
+}
+
+.aside-text{
+/* Design is about prog */
+
+    font-family: $primary-font;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    /* identical to box height */
+
+    color: $primary-color;
+
+    mix-blend-mode: normal;
+    opacity: 0.6;
+}
