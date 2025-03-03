@@ -5,27 +5,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/styles/normalize.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
-        rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
+    rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+    integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="/styles/product-details.css">
     <title>Pre-post-processors</title>
 </head>
 
 <body>
-    <header>
-        <a href="/index.html"><img src="/images/Logo.svg" alt="Logo- Genesis"></a>
-        <nav>
-            <a href="/pages/product-details.html">Projects</a>
-            <a href="/pages/contact.html">Contact</a>
-        </nav>
+    <header class="nav-bar">
+        <a href="/index.html" class="logo"><img src="/images/Logo.svg" alt="Logo Genesis"></a>
+        <div class="right">
+            <nav>
+                <a class="nav-links" href="/pages/product-details.html">Projects</a>
+                <a class="nav-links" href="/pages/contact.html">Contact</a>
+            </nav>
+        </div>
     </header>
-    <section class="product-title">
-        <header>
-            <h1>A fresh new title can make all the difference</h1>
+    <section class="product">
+        <header class="product-title">
+            <h1>A fresh new title can make all the difference!</h1>
         </header>
-        <section>
+        <section class="product-text">
             <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration
                 in some form,
                 by injected humour, or randomised words which don't look even slightly believable.
@@ -36,34 +41,30 @@
                 Internet. It
                 uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures.</p>
         </section>
-        <aside>
+        <aside class="product-info">
             <div>
-                <p>Product</p>
-                <p>Genesis Portfolio</p>
+                <p class="name">Product</p>
+                <p class="detail">Genesis Portfolio</p>
             </div>
             <div>
-                <p>Product</p>
-                <p>Genesis Portfolio</p>
+                <p  class="name">Design</p>
+                <p class="detail">Bakhtiyar Sattarov</p>
             </div>
             <div>
-                <p>Design</p>
-                <p>Bakhtiyar Sattarov</p>
+                <p  class="name">Client</p>
+                <p class="detail">Crarftwork</p>
             </div>
             <div>
-                <p>Client</p>
-                <p>Crarftwork</p>
+                <p  class="name">Deliverable</p>
+                <p class="detail">Website Design</p>
             </div>
             <div>
-                <p>Deliverable</p>
-                <p>Website Design</p>
+                <p  class="name">Year</p>
+                <p class="detail">2018</p>
             </div>
             <div>
-                <p>Year</p>
-                <p>2018</p>
-            </div>
-            <div>
-                <p>Field</p>
-                <p>Branding, Personal</p>
+                <p  class="name">Field</p>
+                <p class="detail">Branding, Personal</p>
             </div>
         </aside>
     </section>
@@ -80,23 +81,25 @@
             there isn't anything embarrassing hidden in the middle of text.</p>
     </section>
     <section class="product-images">
-        <div class="grid-container">
-            <img src="/images/Image (1).png" alt="a mountain scenary" class="grid-item">
-            <img src="/images/Image (2).png" alt="a flower vase" class="grid-item">
-            <img src="/images/Image (3).png" alt="a window" class="grid-item">
+        <div class="product-container">
+            <div class="product-item"><img class="product-image-trio" src="/images/Image (1).png" alt="a mountain scenary"></div>
+            <div class="product-item"><img  class="product-image-trio" src="/images/Image (2).png" alt="a flower vase"></div>
+            <div class="product-item"><img  class="product-image-trio" src="/images/Image (3).png" alt="a window"></div>
+
         </div>
     </section>
-    <footer>
-        <a href="/index.html"><img src="/images/Logo.svg" alt="Logo- Genesis"></a>
-        <nav>
-            <a href="/pages/product-details.html">Projects</a>
-            <a href="/pages/contact.html">Contact</a>
-        </nav>
-        <nav>
-            <a href="/pages/product-details.html">Projects</a>
-            <a href="/pages/contact.html">Contact</a>
-            <a href="/pages/contact.html">Contact</a>
-        </nav>
+    <footer class="nav-bar footer">
+        <a href="/index.html" class="logo"><img src="/images/Logo.svg" alt="Logo Genesis"></a>
+        <div class="right">
+            <nav>
+                <a class="nav-links" href="/pages/product-details.html">Projects</a>
+                <a class="nav-links" href="/pages/contact.html">Contact</a>
+
+                <a class="nav-links social" href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a>
+                <a class="nav-links" href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                <a class="nav-links" href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            </nav>
+        </div>
     </footer>
 </body>
 

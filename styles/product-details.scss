@@ -1,0 +1,78 @@
+@use 'index';
+$product-border: #979797;
+
+
+.product-title {
+    /* A fresh new title can make all the difference */
+    font-family: index.$primary-font;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 55px;
+    /* or 138% */
+
+    color: index.$primary-color;
+    width: 500px;
+    height: 130px;
+}
+
+.product-text {
+    /* There are many varia */
+    font-family: index.$primary-font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+
+    color: index.$primary-color;
+
+
+}
+
+.product-info {
+    border-bottom: 1px solid $product-boder;
+}
+
+.name {
+    /* Project */
+
+    font-family: index.$primary-font;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    /* identical to box height */
+
+    color: index.$primary-color;
+
+}
+
+.detail {
+    /* Genesis Portfolio */
+
+    font-family: index.$primary-font;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    /* identical to box height */
+
+    color: index.$primary-color;
+}
+
+.product-single-image {
+    height: 660px;
+}
+
+.product-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+.product-image-trio {
+    width: 350px;
+    height: 400px;
+}
