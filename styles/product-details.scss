@@ -1,6 +1,11 @@
-@use 'index';
-$product-border: #979797;
 
+$product-border: #979797;
+@use 'index';
+.product{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
 
 .product-title {
     /* A fresh new title can make all the difference */
@@ -45,6 +50,8 @@ $product-border: #979797;
     /* identical to box height */
 
     color: index.$primary-color;
+        mix-blend-mode: normal;
+        opacity: 0.5;
 
 }
 
