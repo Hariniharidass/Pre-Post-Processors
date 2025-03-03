@@ -1,34 +1,53 @@
 @use 'index';
-@use 'contact';
+@use 'product-details';
 
 $button-text-color: #FFFFFF;
 $button-color: #4A4FF2;
 
 .contact-page {
-    display: flex;
-    flex-direction: row;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     width: 100%;
     height: 300px;
 }
 
 .contact-title {
-    order: 1;
+    grid-row: 1/2;
+    grid-column: 1/2;
+    font-family: index.$primary-font;
+    font-style: bold;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 55px;
+    /* or 138% */
+    color: index.$primary-color;
 }
 
 .contact-text {
-    order: 2;
     font-family: index.$primary-font;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
+    grid-row: 2/3;
+    grid-column: 1/2;
 }
 
 .contact-form {
-    order: 3;
+    grid-row: 1/3;
+    grid-column: 2/3;
+}
+
+.my-form {
+    display: flex;
+    flex-direction: column;
+
 }
 
 .contact-map {
+    margin-top: 200px;
     width: 100%;
     height: 570px;
 
@@ -36,21 +55,23 @@ $button-color: #4A4FF2;
 
 .label {
     /* Name */
-    font-family: $primary-font;
+    font-family: index.$primary-font;
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 20px;
     /* identical to box height */
 
-    color: $primary-color;
+    color: index.$primary-color;
     mix-blend-mode: normal;
     opacity: 0.6;
+    margin-top: 30px;
 }
 
 .form-elements {
     border: none;
-    border-bottom: $product-border 1px solid;
+    border-bottom: product-details.$product-border 1px solid;
+    margin-bottom: 30px;
 }
 
 .btn-submit {
